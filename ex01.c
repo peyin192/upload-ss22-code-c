@@ -18,7 +18,14 @@ int main(){
     int member = 0;
     struct SinhVien sv[100];
     struct SinhVien sv1[100];
-    printf("MENU \n 1. In danh sach sinh vien \n 2. Them sinh vien \n 3. Sua thong tin sinh vien \n 4. Xoa sinh vien \n 5. Tim kiem sinh vien \n 6. Sap xep danh sach sinh vien \n 7. Thoat \n");
+    printf("MENU\n");
+    printf("1. In danh sach sinh vien\n");
+    printf("2. Them sinh vien\n");
+    printf("3. Sua thong tin sinh vien\n");
+    printf("4. Xoa sinh vien\n");
+    printf("5. Tim kiem sinh vien\n");
+    printf("6. Sap xep danh sach sinh vien\n");
+    printf("7. Thoat\n");
     do{
         printf("Lua chon cua ban: ");
         scanf("%d", &choose);
